@@ -1,0 +1,21 @@
+Package: PropensityNN
+Type: Package
+Title: Propensity score estimation by nerual network
+Version: 0.0.0.9000
+Date: 2016-02-10
+Authors@R: person("Bryan", "Keller", email = "keller4@tc.columbia.edu", role = c("aut", "cre"))
+Description: More about what it does (maybe more than one line)
+License: What license is it under?
+LazyData: TRUE
+Imports:
+    parallel,
+    nnet,
+    caret,
+    doMC,
+    e1071,
+    optmatch,
+    lars,
+    ggplot2,
+    pROC,
+    glmnet
+RoxygenNote: 5.0.1
